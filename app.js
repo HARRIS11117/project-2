@@ -3,7 +3,7 @@
  // select value and buttons
  const value = document.querySelector("#value");
  const btns = document.querySelectorAll(".btn");
- const randomNumbers = [1, 5, 2, 6, 112, 511, 16161, 1313, 1161616, 171717, 1871812812, 11341231231, 12412412, 13,1, 123123.123, 123123,]; // Array of random numbers for the base
+ const randomNumbers = [1, 5, 2, 6, 112, 511, 16161, 1313, 1161616, 171717, 1871812812, 11341231231, 12412412, 13,1, 123123.123, 123123,];
 
  btns.forEach(function (btn) {
    btn.addEventListener("click", function (e) {
